@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('/ProjetCss_Louis/FormulaireTravail_Image/fondcybertech.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: rgba(10, 20, 40, 0.9);
+    color: #00d4ff;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #0099cc;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    margin: 0;
+    font-size: 1.3rem;
+    opacity: 0.95;
+    margin-bottom: 2rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    width: 100%;
+    flex: 1; 
+}
+
+section {
+    background-color: rgba(0, 20, 40, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 180, 255, 0.2);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+h2 {
+    color: #00d4ff;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+    text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #00d4ff, #0099cc);
+    border-radius: 2px;
+    box-shadow: 0 0 10px #00d4ff;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background: rgba(0, 50, 80, 0.5);
+    margin: 0.8rem 0;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border-left: 5px solid #00d4ff;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+li:hover {
+    background: rgba(0, 80, 120, 0.7);
+    font-size: 1.3rem;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+label {
+    font-weight: 600;
+    color: #00d4ff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+}
+
+input, select, textarea {
+    padding: 1rem;
+    border: 2px solid #0099cc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: rgba(0, 20, 40, 0.8);
+    color: #ffffff;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.3);
+    outline: none;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+    color: #09136e;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #00e5ff 0%, #00b3e6 100%);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+    font-size: 1.3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: rgba(10, 20, 40, 0.9);
+    color: #00d4ff;
+    margin-top: auto;
+    width: 100%;
+}
