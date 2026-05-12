@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('/ProjetCss_Louis/FormulaireTravail_Image/fondcybertech.jpg') no-repeat center center fixed;
+    background: url('../image/fondcybertech.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
     line-height: 1.6;
